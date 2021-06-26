@@ -15,6 +15,8 @@
 		023F3F10268753820057EB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F3EE52687537F0057EB9C /* ContentView.swift */; };
 		023F3F11268753820057EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023F3EE6268753820057EB9C /* Assets.xcassets */; };
 		023F3F12268753820057EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023F3EE6268753820057EB9C /* Assets.xcassets */; };
+		023F3F2226875C0D0057EB9C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F3F2126875C0D0057EB9C /* ContentViewModel.swift */; };
+		023F3F2326875C0D0057EB9C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F3F2126875C0D0057EB9C /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		023F3F06268753820057EB9C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023F3F0A268753820057EB9C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		023F3F0C268753820057EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023F3F2126875C0D0057EB9C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				023F3EE42687537F0057EB9C /* NumbersApp.swift */,
 				023F3EE52687537F0057EB9C /* ContentView.swift */,
+				023F3F2126875C0D0057EB9C /* ContentViewModel.swift */,
 				023F3EE6268753820057EB9C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -310,6 +314,7 @@
 			files = (
 				023F3F0F268753820057EB9C /* ContentView.swift in Sources */,
 				023F3F0D268753820057EB9C /* NumbersApp.swift in Sources */,
+				023F3F2226875C0D0057EB9C /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				023F3F10268753820057EB9C /* ContentView.swift in Sources */,
 				023F3F0E268753820057EB9C /* NumbersApp.swift in Sources */,
+				023F3F2326875C0D0057EB9C /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
